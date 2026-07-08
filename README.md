@@ -1,34 +1,33 @@
-# 🚁 AeroVision-AI-Platform
+# 🚁 UAV Based Disaster Response System
 
-**AeroVision** is a real-time UAV monitoring and rescue-support platform that enables rescuer to connect their drone and monitor live operations through an centralized dashboard.
+The **AeroVision AI Platform** is a web-based monitoring and rescue support system designed for the **UAV Based Disaster Response System**. It enables rescue teams to connect their UAVs and monitor live missions through a centralized dashboard.
 
-It allows rescuers to stream live video from the UAV, view real-time sensor data, detect survivors using AI, and track everything on a live map — all in one unified system.
+The platform provides real-time video streaming, live GPS tracking, sensor monitoring, AI-powered survivor detection, and mission visualization to support efficient disaster response operations.
 
 ---
 
-## ⚙️ What It Does
+## ⚙️ Features
 
-- 📡 Streams **live processed video feed (RTSP)** from the UAV directly to the dashboard  
-- 📍 Displays **real-time GPS location (MQTT)** of the drone  
-- 🌡️ Shows **live sensor data (MQTT)** such as temperature  
-- 🧠 Performs **AI-based object detection (YOLO26)** to identify targets (e.g., survivors)  
-- 📸 Captures and displays **detection snapshots with geolocation**  
-- 🗺️ Provides a **live tracking map of the UAV**  
-- 📌 Marks **detection locations (e.g., survivor positions)** on the map  
-- 📦 Stores detection images using **ImageKit.io** for later analysis  
+- 📡 Live processed UAV video streaming (RTSP)
+- 📍 Real-time UAV GPS tracking (MQTT)
+- 🌡️ Live sensor monitoring (temperature)
+- 🧠 AI-powered survivor detection using YOLO
+- 📸 Automatic capture of detection snapshots with GPS coordinates
+- 🗺️ Interactive live mission map
+- 📌 Survivor detection markers displayed on the map
+- 📦 Cloud storage of detection images using ImageKit.io
 
 ---
 
 ## 🧩 Tech Stack
 
-- **Frontend:** React  
-- **Backend:** FastAPI, SQLAlchemy  
+- **Frontend:** React
+- **Backend:** FastAPI, SQLAlchemy
 - **Database:** SQLite
-- **AI & Vision:** YOLO (Ultralytics), OpenCV  
-- **Communication:** MQTT (Mosquitto), PubNub, RTSP  
-- **Media Storage:** ImageKit.io  
+- **AI & Computer Vision:** YOLO (Ultralytics), OpenCV
+- **Communication:** MQTT (Mosquitto), PubNub, RTSP
+- **Media Storage:** ImageKit.io
 
----
 ---
 
 ## 🖼️ Screenshots
