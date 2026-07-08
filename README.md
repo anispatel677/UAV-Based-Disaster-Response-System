@@ -39,3 +39,6 @@ The platform provides real-time video streaming, live GPS tracking, sensor monit
 ![Detections](./images/3_detections.png)
 
 ![Pinpoint Location](./images/4_pin-point%20location.png)
+
+##Picture of Hardware
+![Start Mission](./images/UAV-Based-Disaster-Response_System.jpeg)
